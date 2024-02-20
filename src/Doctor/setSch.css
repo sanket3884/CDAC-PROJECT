@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.schedule-form {
+    background-color: rgba(173, 216, 230, 0.5); /* Light blue with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Blurry background */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    max-width: 400px;
+}
+
+.schedule-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.schedule-form button {
+    margin-top: 20px;
+}
+
+.schedule-form {
+    background-image: url('./images/patientreg.jpg'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
